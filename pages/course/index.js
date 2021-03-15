@@ -8,7 +8,7 @@ const course = ({courses}) => {
             <h1>Courses</h1>
             {/* {allCourses.slice(0,20).map(course =>  <h4 style={{color: "gray", backgroundColor: "lightblue", border:"5px solid black", padding: "10px"}}  key={course.course_id}>{course.title}</h4>)}     */}
 
-            {allCourses.slice(0,10).map(course => (
+            {allCourses.slice(0,20).map(course => (
                 <Link href = {"/course/"+ course.course_id}>
                 <h3 style={{color: "gray", backgroundColor: "lightblue", border:"5px solid black", padding: "10px"}}  key={course.course_id}>{course.title}</h3>
                 </Link>
